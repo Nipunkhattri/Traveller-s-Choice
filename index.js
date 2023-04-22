@@ -20,7 +20,7 @@ app.get("/", (req, res) => {
   res.send("Welcome to tour API");
 });
 
-const port = process.env.PORT || 5000;
+const port = 5000;
 
 mongoose
   .connect(process.env.MONGODB_URL)
